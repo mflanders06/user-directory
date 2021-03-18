@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End of meyerweb reset*/
+
+.homeBar{
+  background-color: rgb(48, 155, 209);
+  padding: 30px;
+  padding-left: 40px;
+  font-weight: 800;
+}
+
+.App {
+  background-color: black;
+  padding: 70px;
+
+
+}
+
+.userCard{
+  box-sizing: border-box;
+  background-color: lightgray;
+}
+
+.pageNumber{
+  text-align: right;
+  font-size: 25px;
+  font-weight: 800;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.userName{
+  margin-left: 40px;
+  padding-bottom: 10px;
+  text-decoration: underline 2px rgb(48, 155, 209);
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.userInfo{
+  margin-left: 40px;
+  padding-top: 7px;
+}
+
+.title{
+  font-weight: 800;
+}
+
+.favoriteGroup{
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 40px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: none;
+  text-decoration: none;
+}
+
+.centerButtons > button{
+  border: none;
+  padding:10px;
+  margin-top:8px;
+  margin-left:5px;
+  margin-right:5px;
+  background-color: rgb(48, 155, 209);
+  border-radius: 25%;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+
+}
+
+.buttons > button{
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.prevNext{
+  font-size:20px;
+  font-weight: 900;
+}
+
+/*
+Pre-built stuff... leaving here for reference for now.
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
